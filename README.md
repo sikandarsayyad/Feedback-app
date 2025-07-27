@@ -38,8 +38,9 @@ testimonial-app/
 
 ## Setup Instructions
 
-### 1. Clone the Repository
+### Step to run project
 
+### 1. Clone the Repository
 ```bash
 git clone https://github.com/your-username/testimonial-app.git
 cd testimonial-app
