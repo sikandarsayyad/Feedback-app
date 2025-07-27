@@ -1,0 +1,17 @@
+<%- include('partials/header') %>
+<div class="flex items-center justify-center h-screen px-10">
+	<div class="max-w-sm md:max-w-xl mx-auto bg-white p-10 rounded shadow mt-20">
+		<h2 class="text-xl font-bold mb-2"><%= testimonial.name %></h2>
+		<p class="text-gray-700"><%= testimonial.message %></p>
+		<p class="text-sm text-gray-400 mt-4">Shareable link:</p>
+		<code class="text-sm text-gray-700 block overflow-x-hidden"><%= `http://localhost:3000/testimonial/${testimonial._id}` %></code>
+
+		<p class="text-sm text-gray-400 mt-4">Created At:</p>
+
+		<p class="text-blue-500 text-sm"><%= testimonial.createdAt %></p>
+
+		<div class="mt-6 flex gap-4">
+			<a href="/" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded hover:bg-gray-500 transition">Back To Home</a>
+		</div>
+	</div>
+</div>
